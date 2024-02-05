@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(240, 240, 240);
+    color: black;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+button {
+    background: #FFD2A4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #F2C79B;
+}
