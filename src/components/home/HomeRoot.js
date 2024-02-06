@@ -1,3 +1,4 @@
+import ChurchBenefits from "./ChurchBenefits";
 import ChurchRelevant from "./ChurchRelevant";
 import Intro from "./Intro";
 import LoveAndCompassion from "./LoveAndCompassion";
@@ -10,6 +11,8 @@ export default function HomeRoot() {
             <ChurchRelevant />
 
             <LoveAndCompassion />
+
+            <ChurchBenefits />
         </div>
     );
 }
