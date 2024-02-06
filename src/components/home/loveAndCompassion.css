@@ -1,0 +1,62 @@
+.loveAndCompassion {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+    /* margin-top: 3rem;
+    margin-bottom: 2rem; */
+}
+
+.loveAndCompassionTitle {
+    margin: 1rem;
+}
+
+.loveAndCompassionDesc {
+    margin-bottom: 1rem;
+}
+
+.loveAndCompassionPara {
+    max-width: 45rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* .loveAndCompassionBtn {} */
+
+/* .loveAndCompassionImg:nth-child(2) {
+    margin-top: 20rem;
+} */
+
+.loveAndCompassionImg:nth-child(1) {
+    margin-bottom: 12rem;
+}
+
+.loveAndCompassionImg:nth-child(3) {
+    margin-bottom: 12rem;
+}
+
+.loveAndCompassionImg {
+    object-fit: cover;
+    padding: 0.5rem;
+}
+
+.missionAndVision {
+    margin-top: 2rem;
+}
+
+.missionAndVisionTitle {
+    margin: 1rem;
+}
+
+.missionAndVisionDesc {
+    margin: 1rem;
+}
+
+.missionAndVisionPara {
+    max-width: 35rem;
+    margin-bottom: 1rem;
+}

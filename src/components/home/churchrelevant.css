@@ -1,0 +1,54 @@
+.churchRelevant {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 85rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.churchRelevantTitle {
+    margin: 1rem;
+}
+
+.relevantBoxes {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.relevantBox {
+    display: flex;
+    margin: 1rem;
+    padding: 4rem 3rem;
+    /* padding-top: 7rem; */
+    align-content: center;
+    justify-content: left;
+    text-align: left;
+    background: #FFF5EB;
+    border-bottom: 10px solid #FFD2A4;
+}
+
+.relevantBoxImg {
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+}
+
+.relevantBoxText {
+    margin-top: 4rem;
+    margin-left: 0px;
+}
+
+.relevantBoxTextTitle {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}

@@ -5,12 +5,12 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 import Header from "./components/layouts/Header";
-import Home from "./components/home/Home";
+import HomeRoot from "./components/home/HomeRoot";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Header />}>
-      <Route index element={<Home />} />
+      <Route index element={<HomeRoot />} />
     </Route>
 
   )
