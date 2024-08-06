@@ -1,7 +1,7 @@
 import "./churchrelevant.css";
-import aboutIcon from "../../assets/about_us_icon.png";
-import getInvolvedIcon from "../../assets/get_involved_icon.png";
-import givingBack from "../../assets/giving_back_icon.png";
+import aboutIcon from "../../../assets/about_us_icon.png";
+import getInvolvedIcon from "../../../assets/get_involved_icon.png";
+import givingBack from "../../../assets/giving_back_icon.png";
 
 export default function ChurchRelevant() {
     return (

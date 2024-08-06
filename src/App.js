@@ -1,25 +1,28 @@
+import React from 'react';
 import {
-  Route,
-  RouterProvider,
-  createBrowserRouter,
-  createRoutesFromElements
+  BrowserRouter,
+  Routes,
+  Route
 } from "react-router-dom";
-import Header from "./components/layouts/Header";
-import HomeRoot from "./components/home/HomeRoot";
+import Header from "./components/layouts/header/Header";
+import Footer from "./components/layouts/footer/Footer";
+import Home from "./pages/Home";
+import AboutUs from './pages/AboutUs';
+import SermonPage from './pages/SermonPage';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Header />}>
-      <Route index element={<HomeRoot />} />
-    </Route>
+const App = () => {
 
-  )
-)
-
-function App() {
   return (
-    <div className="App">
-      <RouterProvider router={router} />
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='about-us' element={<AboutUs />} />
+          <Route path='sermon' element={<SermonPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

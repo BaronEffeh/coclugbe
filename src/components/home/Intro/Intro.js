@@ -1,5 +1,5 @@
 import "./intro.css";
-import bgImg from "../../assets/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg";
+import bgImg from "../../../assets/woman-in-orange-coat-with-black-and-brown-scarf-5418305.jpg";
 
 export default function Intro() {
     return (

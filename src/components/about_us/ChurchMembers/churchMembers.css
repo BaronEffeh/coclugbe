@@ -1,0 +1,61 @@
+.churchMembers {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 3rem auto 6rem auto;
+}
+
+.churchMembersHead {
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-top: 5rem;
+   max-width: 25rem;
+   line-height: 2rem;
+}
+
+.churchMembersHead h6 {
+   margin-bottom: 0.5rem;
+}
+
+.churchMembersCards {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   width: 100vw;
+   max-width: 63rem;
+   margin: 3rem auto;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.churchMembersCard {
+   background: #F5F2F0;
+   padding: 1.5rem;
+}
+
+.memberImg {
+   object-fit: cover;
+   height: 10rem;
+   width: 10rem;
+   margin-bottom: 1rem;
+   border: none;
+   border-radius: 50%;
+}
+
+.churchMembersCard p {
+   margin: 0.5rem 0;
+}
+
+.churchMembersSocials {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 5rem;
+   margin: auto;
+}
+
+.churchMembersSocials img {
+   object-fit: cover;
+   height: 1rem;
+}

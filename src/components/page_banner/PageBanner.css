@@ -1,0 +1,21 @@
+.pageBannerBgImg {
+   background-image: url('../../assets/aboutImgs/aboutBgImg.png');
+   background-size: cover;
+   /* height: 30rem; */
+   width: 100vw;
+   max-width: 100%;
+}
+
+.pageBannerText {
+   align-items: center;
+   height: 25rem;
+   position: relative;
+   width: 100vw;
+   max-width: 100%;
+   top: 10rem;
+   margin-left: 7rem;
+}
+
+.pageBannerText h5 {
+   margin-bottom: 1rem;
+}

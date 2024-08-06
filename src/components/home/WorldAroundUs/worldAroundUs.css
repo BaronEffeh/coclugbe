@@ -1,0 +1,36 @@
+.worldAroundUs {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 90vh;
+   background: linear-gradient(#cd53231f, #ffcfa004), url('../../../assets/facade-of-aged-grand-cathedral.png');
+   background-size: cover;
+   background-position: center;
+}
+
+.worldAroundUsInner {
+   display: flex;
+   height: 65%;
+   width: 50%;
+   margin: auto;
+   background: #FFFFFF;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 1rem solid #FFD2A4;
+}
+
+.worldAroundUsText {
+   width: 50%;
+}
+
+.worldAroundUsText h2 {
+   width: 15rem;
+   margin-bottom: 1.5rem;
+   line-height: 2rem;
+}
+
+.worldAroundUsText p {
+   margin-bottom: 2rem;
+   line-height: 2rem;
+}

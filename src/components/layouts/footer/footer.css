@@ -1,0 +1,80 @@
+.footer {
+   background: #161722;
+   color: #FFFFFF;
+   padding: 3rem 7rem;
+}
+
+.footer a {
+   color: #FFFFFF;
+}
+
+.footerContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100vw;
+   max-width: 65rem;
+   margin: auto;
+   margin-top: 2.5rem;
+}
+
+.footerLeft h4 {
+   width: 12rem;
+   color: #F2C79B;
+   margin-bottom: 1.5rem;
+}
+
+.copyRight {
+   margin-bottom: 2rem;
+}
+
+.footerPone,
+.footerAddress,
+.footerEmail {
+   margin-bottom: 1rem;
+}
+
+.footerLinks {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   width: 18rem;
+   /* margin-left: 5rem; */
+}
+
+.footerLinks h4,
+.footerLinks p {
+   margin-bottom: 1.5rem;
+}
+
+.socialConnects {
+   display: flex;
+   gap: 30px;
+}
+
+.footerSubscribe {
+   width: 15rem;
+}
+
+.footerSubscribe h4 {
+   margin-bottom: 5rem;
+}
+
+.footerSubscribeInput {
+   display: flex;
+}
+
+.footerSubscribeInput input {
+   border: 1px solid #FFFFFF;
+   border-radius: 10px 0 0 10px;
+   padding: 0.9rem;
+   padding-bottom: 0.8rem;
+   color: #FFFFFF;
+}
+
+.footerSubscribeInput button {
+   z-index: 1;
+   position: absolute;
+   right: 5rem;
+   padding: 0.9rem 1.5rem;
+}

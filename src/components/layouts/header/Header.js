@@ -6,7 +6,7 @@ export default function Header() {
         <div className="header">
             <header>
                 <nav className="navbar">
-                    <h3 className="logo">The Church of Christ Lugbe, Abuja</h3>
+                    <h3 className="logo">The Church of Christ Lugbe - Abuja</h3>
                     <span className="vertical-line"></span>
                     <div className="desktopMenu">
                         <NavLink to="/" className="desktopMenuListItem">HOME</NavLink>

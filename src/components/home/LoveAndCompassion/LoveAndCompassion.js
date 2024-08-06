@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./loveAndCompassion.css";
-import manPraying from "../../assets/a-bearded-man-praying-5206040.png";
-import readingBook from "../../assets/man-and-woman-reading-book-while-sitting-on-pews-8468470.png";
-import peopleOnSeat from "../../assets/people-sitting-on-brown-pews-8674151.png";
-import arrow from "../../assets/Shape.png";
+import manPraying from "../../../assets/a-bearded-man-praying-5206040.png";
+import readingBook from "../../../assets/man-and-woman-reading-book-while-sitting-on-pews-8468470.png";
+import peopleOnSeat from "../../../assets/people-sitting-on-brown-pews-8674151.png";
+import Arrow from "../../../assets/Shape.png";
 
 export default function LoveAndCompassion() {
     return (
@@ -21,7 +21,7 @@ export default function LoveAndCompassion() {
                 <h5 className="missionAndVisionTitle">OUR MISSION & VISION</h5>
                 <h3 className="missionAndVisionDesc">CELEBRATE WITH US</h3>
                 <p className="missionAndVisionPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dolorum dolores rem nobis non quisquam iusto et placeat alias iure.</p>
-                <NavLink to="demo">Read More <img src={arrow} alt="Read More Arrow" className="readMoreArrow" /> </NavLink>
+                <NavLink to="demo">Read More <img src={Arrow} alt="Read More Arrow" className="readMoreArrow" /> </NavLink>
             </div>
         </div>
     );

@@ -1,0 +1,44 @@
+.benefits {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 3rem auto;
+}
+
+.benefitsHead {
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-top: 5rem;
+   max-width: 20rem;
+   line-height: 2rem;
+}
+
+.benefitsHead h6 {
+   margin-bottom: 0.5rem;
+}
+
+.benefitsDetails {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   width: 100vw;
+   max-width: 63rem;
+   margin: 3rem auto;
+   align-items: center;
+   justify-content: space-between;
+   text-align: left;
+   line-height: 1.5rem;
+}
+
+.benefitsDetails h4 {
+   margin-bottom: 1rem;
+}
+
+.benefitsDetailsCard {
+   margin-bottom: 2rem;
+}
+
+.benefitsDetailsCard h3 {
+   margin-bottom: 1rem;
+}
