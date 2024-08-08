@@ -1,3 +1,4 @@
+import React from "react";
 import ChurchBenefits from "../components/home/ChurchBenefits/ChurchBenefits";
 import ChurchRelevant from "../components/home/ChurchRelevant/ChurchRelevant";
 import Intro from "../components/home/Intro/Intro";

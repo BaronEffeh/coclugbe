@@ -11,7 +11,7 @@ export default function Header() {
                     <div className="desktopMenu">
                         <NavLink to="/" className="desktopMenuListItem">HOME</NavLink>
                         <NavLink to="about-us" className="desktopMenuListItem">ABOUT US</NavLink>
-                        <NavLink to="sermon" className="desktopMenuListItem">SERMON</NavLink>
+                        <NavLink to="sermons" className="desktopMenuListItem">SERMONS</NavLink>
                         <NavLink to="blog" className="desktopMenuListItem">BLOG</NavLink>
                     </div>
                     <button>CONTACT US</button>

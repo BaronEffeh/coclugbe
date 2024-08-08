@@ -9,6 +9,7 @@ import Footer from "./components/layouts/footer/Footer";
 import Home from "./pages/Home";
 import AboutUs from './pages/AboutUs';
 import SermonPage from './pages/SermonPage';
+import BlogPage from './pages/BlogPage';
 
 const App = () => {
 
@@ -19,7 +20,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about-us' element={<AboutUs />} />
-          <Route path='sermon' element={<SermonPage />} />
+          <Route path='sermons' element={<SermonPage />} />
+          <Route path='blog/*' element={<BlogPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

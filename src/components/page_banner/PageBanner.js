@@ -6,7 +6,7 @@ class PageBanner extends React.Component {
       let pageTitle;
       let pageDescription;
       switch (this.props.page) {
-         case 'sermon':
+         case 'sermons':
             pageTitle = 'SERMON';
             pageDescription = 'TAKE PART IN OUR SERMON';
             break;

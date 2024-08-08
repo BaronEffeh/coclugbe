@@ -13,7 +13,7 @@ export default function Footer() {
                <h4>The Church of Christ Lugbe - Abuja</h4>
                <p className="copyRight">&copy; The Church of Christ, Lugbe 2024</p>
                <p className="footerPone"><a href="tel:+2347012928822">07012928822</a></p>
-               <p className="footerAddress">Bergger Yard, Lugbe, FCT - Abuja</p>
+               <p className="footerAddress">Begger Yard, Lugbe, FCT - Abuja</p>
                <p className="footerEmail"><a href="mailto:info@coclugbe.com">info@coclugbe.com</a></p>
             </div>
             <div className="footerLinks">
@@ -27,7 +27,7 @@ export default function Footer() {
                <div className="connect">
                   <h4>Connect</h4>
                   <div className="socialConnects">
-                     <Link><img src={FacebookIcon} alt="" /></Link>
+                     <Link><img src={FacebookIcon} alt="Facebook Icon" /></Link>
                      <Link><img src={Twitter} alt="" /></Link>
                      <Link><img src={LinkedInIcon} alt="" /></Link>
                   </div>

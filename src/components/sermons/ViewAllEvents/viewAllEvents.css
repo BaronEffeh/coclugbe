@@ -1,0 +1,58 @@
+.viewAllEvents {
+   width: 100vw;
+   max-width: 100%;
+   align-items: center;
+   justify-content: center;
+   line-height: 1.5rem;
+   margin-bottom: 5rem;
+}
+
+.viewAllEvents h2 {
+   text-align: center;
+}
+
+.eventCards {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+   width: 100%;
+   max-width: 63rem;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   position: relative;
+}
+
+.eventCard {
+   background: #FFF5EB;
+   padding: 1rem;
+   border-bottom: 1rem solid #FFF5EB;
+}
+
+.eventCard:hover {
+   border-bottom: 1rem solid #F2C79B;
+}
+
+.eventCardDate {
+   text-align: center;
+   width: 3rem;
+   float: right;
+}
+
+.eventCardDetails {
+   /* display: block; */
+   margin-top: 2.5rem;
+}
+
+.eventCardDetails h6 {
+   color: #F2C79B;
+   margin-bottom: 1rem;
+}
+
+.eventCardDetails h3 {
+   margin-bottom: 1.2rem;
+}
+
+.eventCardDetails p {
+   margin-bottom: 1rem;
+}

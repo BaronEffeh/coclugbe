@@ -1,0 +1,17 @@
+.homeBlogCard {
+   background: #FFFFFF;
+   border-bottom: 1rem solid #FFFFFF;
+}
+
+.homeBlogCard a {
+   color: black;
+}
+
+.homeBlogCard:hover {
+   border-bottom: 1rem solid #F2C79B;
+}
+
+.postAuthor,
+.postDate {
+   color: #2b2828;
+}

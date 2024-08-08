@@ -1,0 +1,36 @@
+.recentPost {
+   width: 100vw;
+   max-width: 65rem;
+   margin: auto;
+   line-height: 2rem;
+}
+
+.recentPostHead {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 2rem auto;
+}
+
+.mainPost {
+   display: flex;
+   background: #FFFFFF;
+   padding: 3rem;
+   gap: 30px;
+}
+
+.mainPostImg img {
+   object-fit: cover;
+   height: 20rem;
+}
+
+.dateAuthor {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.mainPostInfo h3,
+button {
+   margin: 1rem 0;
+}
