@@ -1,3 +1,6 @@
+import PostMainImg from '../../blogImgs/Main-post-image.png';
+import PostBodyImg from '../../blogImgs/post-body-image.png';
+
 export const blogPosts = [
    {
       id: 1,
@@ -42,16 +45,22 @@ export const blogPosts = [
    {
       id: 6,
       title: "THE NEW TESTERMENT CHURCH",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmode tempor.",
       category: "WORSHIP",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, cumque? Facere doloribus aperiam unde fugit velit natus obcaecati aut tempora cupiditate, quis molestias temporibus voluptatem illum at deleniti ea! Aliquid? Distinctio ut ipsam incidunt debitis facilis pariatur, sapiente recusandae ipsa dolorum corporis nisi earum, vel similique totam inventore fugiat quod perferendis autem, esse repellendus enim! Ea quia animi libero fuga.",
+      moreContent: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nesciunt accusamus incidunt temporibus fuga ducimus, vel assumenda iure sit veritatis reprehenderit molestias sapiente voluptas necessitatibus tempore labore voluptate et odio! Accusantium dolor animi quia commodi earum eos cupiditate illo nisi hic ab asperiores, debitis iure eligendi fugiat. Dolorem quia, natus suscipit molestias assumenda sapiente illum labore enim? Voluptatem, placeat earum!",
+      mainImage: PostMainImg,
+      bodyImage: PostBodyImg,
       author: "Mathew Johson",
       date: "Tuesday 6 Aug, 2024",
    },
    {
       id: 7,
       title: "THE BIBLE PURPOSE FOR MONEY",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, cumque? Facere doloribus aperiam unde fugit velit natus obcaecati aut tempora cupiditate, quis molestias temporibus voluptatem illum at deleniti ea! Aliquid? Distinctio ut ipsam incidunt debitis facilis pariatur, sapiente recusandae ipsa dolorum corporis nisi earum, vel similique totam inventore fugiat quod perferendis autem, esse repellendus enim! Ea quia animi libero fuga.",
       category: "WORSHIP",
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, cumque? Facere doloribus aperiam unde fugit velit natus obcaecati aut tempora cupiditate, quis molestias temporibus voluptatem illum at deleniti ea! Aliquid? Distinctio ut ipsam incidunt debitis facilis pariatur, sapiente recusandae ipsa dolorum corporis nisi earum, vel similique totam inventore fugiat quod perferendis autem, esse repellendus enim! Ea quia animi libero fuga.",
+      moreContent: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nesciunt accusamus incidunt temporibus fuga ducimus, vel assumenda iure sit veritatis reprehenderit molestias sapiente voluptas necessitatibus tempore labore voluptate et odio! Accusantium dolor animi quia commodi earum eos cupiditate illo nisi hic ab asperiores, debitis iure eligendi fugiat. Dolorem quia, natus suscipit molestias assumenda sapiente illum labore enim? Voluptatem, placeat earum!",
+      mainImage: PostMainImg,
+      bodyImage: PostBodyImg,
       author: "Mathew Johson",
       date: "Tuesday 6 Aug, 2024",
    },

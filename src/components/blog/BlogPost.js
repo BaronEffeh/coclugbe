@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import './blogPost.css';
 
 const BlogPost = ({ posts }) => {
    const { id } = useParams();
@@ -12,10 +13,20 @@ const BlogPost = ({ posts }) => {
    return (
       <div className="blogPost">
          <div className="blogPostContent">
-            <h6>{post.category}</h6>
-            <h1>{post.title}</h1>
-            <p>{post.author} - {post.date}</p>
-            <p>{post.content}</p>
+            <div className="postHead">
+               <h6>{post.category}</h6>
+               <h1>{post.title}</h1>
+               <p>{post.date} - By {post.author}</p>
+            </div>
+            <div className="postMainImg">
+               <img src={post.mainImage} alt="" />
+            </div>
+            <div className="postBody">
+               <p>{post.content}</p>
+               <img src={post.bodyImage} alt="" />
+               <p>{post.moreContent}</p>
+               <p>{post.moreContent}</p>
+            </div>
          </div>
       </div>
    );
