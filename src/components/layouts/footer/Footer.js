@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footer">
          <div className="footerContainer">
             <div className="footerLeft">
-               <h4>The Church of Christ Lugbe - Abuja</h4>
+               <h4><Link to="/"> The Church of Christ Lugbe - Abuja</Link></h4>
                <p className="copyRight">&copy; The Church of Christ, Lugbe 2024</p>
                <p className="footerPone"><a href="tel:+2347012928822">07012928822</a></p>
                <p className="footerAddress">Begger Yard, Lugbe, FCT - Abuja</p>

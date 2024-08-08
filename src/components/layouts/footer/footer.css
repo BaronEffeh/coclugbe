@@ -24,6 +24,10 @@
    margin-bottom: 1.5rem;
 }
 
+.footerLeft h4 a {
+   color: #F2C79B;
+}
+
 .copyRight {
    margin-bottom: 2rem;
 }
