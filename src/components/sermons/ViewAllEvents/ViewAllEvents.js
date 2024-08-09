@@ -1,5 +1,6 @@
 import React from "react";
 import './viewAllEvents.css';
+import { Link } from "react-router-dom";
 
 const ViewAllEvents = () => {
    return (
@@ -63,6 +64,7 @@ const ViewAllEvents = () => {
                   <p>Along Airport Road, Lugbe, FCT - Abuja</p>
                </div>
             </div>
+            <Link to="sermon-events">View all Sermon</Link>
 
          </div>
       </div>

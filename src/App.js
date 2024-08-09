@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import AboutUs from './pages/AboutUs';
 import SermonPage from './pages/SermonPage';
 import BlogPage from './pages/BlogPage';
+import SermonEvent from './pages/SermonEvent';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='about-us' element={<AboutUs />} />
           <Route path='sermons' element={<SermonPage />} />
           <Route path='blog/*' element={<BlogPage />} />
+          <Route path='sermons/sermon-events' element={<SermonEvent />} />
         </Routes>
         <Footer />
       </BrowserRouter>

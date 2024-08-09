@@ -19,11 +19,11 @@ const BlogPost = ({ posts }) => {
                <p>{post.date} - By {post.author}</p>
             </div>
             <div className="postMainImg">
-               <img src={post.mainImage} alt="" />
+               <img src={post.mainImage} alt="Main post" />
             </div>
             <div className="postBody">
                <p>{post.content}</p>
-               <img src={post.bodyImage} alt="" />
+               <img src={post.bodyImage} alt="Post body" />
                <p>{post.moreContent}</p>
                <p>{post.moreContent}</p>
             </div>
