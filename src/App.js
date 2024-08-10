@@ -12,6 +12,7 @@ import SermonPage from './pages/SermonPage';
 import BlogPage from './pages/BlogPage';
 import SermonEvent from './pages/SermonEvent';
 import ContactPage from './pages/ContactPage';
+import Error404 from './components/error404/Error404';
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='blog/*' element={<BlogPage />} />
           <Route path='sermons/sermon-events' element={<SermonEvent />} />
           <Route path='contact-us' element={<ContactPage />} />
+          <Route path='*' element={<Error404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
