@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coclugbe/static/css/main.bb829441.css",
-    "main.js": "/coclugbe/static/js/main.ccc85cc0.js",
+    "main.js": "/coclugbe/static/js/main.2b935c87.js",
     "static/media/facade-of-aged-grand-cathedral.png": "/coclugbe/static/media/facade-of-aged-grand-cathedral.694ee2489f7d45f3dc88.png",
     "static/media/Main-post-image.png": "/coclugbe/static/media/Main-post-image.b6b68a8c6af8e892d21d.png",
     "static/media/contact-head.png": "/coclugbe/static/media/contact-head.2194b9a3c1c77054db57.png",
@@ -34,10 +34,10 @@
     "static/media/clock-icon.svg": "/coclugbe/static/media/clock-icon.5725f88a9b5cc2a41ff37fa0f0a6c241.svg",
     "static/media/location-icon.svg": "/coclugbe/static/media/location-icon.ce61e4dd070751b7f62fe83d31ac030d.svg",
     "main.bb829441.css.map": "/coclugbe/static/css/main.bb829441.css.map",
-    "main.ccc85cc0.js.map": "/coclugbe/static/js/main.ccc85cc0.js.map"
+    "main.2b935c87.js.map": "/coclugbe/static/js/main.2b935c87.js.map"
   },
   "entrypoints": [
     "static/css/main.bb829441.css",
-    "static/js/main.ccc85cc0.js"
+    "static/js/main.2b935c87.js"
   ]
 }
