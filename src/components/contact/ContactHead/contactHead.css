@@ -1,0 +1,27 @@
+.contactHead {
+   background-image: url('../../../assets/contact-head.png');
+   width: 100vw;
+   max-width: 100%;
+   align-items: center;
+   justify-content: center;
+   height: 30rem;
+}
+
+.contactHeadText {
+   align-items: center;
+   justify-content: center;
+   color: #FFFFFF;
+   padding-top: 15%;
+   width: 70rem;
+   margin: auto;
+   /* background: wheat; */
+}
+
+.contactHeadText h6 {
+   margin-bottom: 1rem;
+   color: #F2C79B;
+}
+
+.contactHeadText h1 {
+   max-width: 20rem;
+}

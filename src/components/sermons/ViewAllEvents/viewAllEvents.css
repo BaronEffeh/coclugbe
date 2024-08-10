@@ -23,6 +23,15 @@
    position: relative;
 }
 
+.viewAllSermonsLink {
+   display: flex;
+   max-width: 63rem;
+   margin: 1rem auto;
+   align-items: flex-end;
+   justify-content: right;
+   /* background: rebeccapurple; */
+}
+
 .eventCard {
    background: #FFF5EB;
    padding: 1rem;

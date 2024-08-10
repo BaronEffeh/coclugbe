@@ -21,7 +21,7 @@ const ChurchMembers = () => {
             <div className="churchMembersCard">
                <img src={Member3Img} alt="" className="memberImg" />
                <h3>Rupert Kukwa</h3>
-               <p>Preacher, COC Lugbe</p>
+               <p>Minister, COC Lugbe</p>
                <div className="churchMembersSocials">
                   <Link to="demo-link" ><img src={FacebookIcon} alt="" /></Link>
                   <Link to="demo-link" ><img src={TwitterIcon} alt="" /></Link>

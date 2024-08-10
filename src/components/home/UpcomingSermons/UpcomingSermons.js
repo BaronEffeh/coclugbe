@@ -35,7 +35,7 @@ export default function UpcomingSermons() {
                     <img src={EventImg} alt="EventImg" />
                 </div>
             </div>
-            <NavLink to="demo">View all Sermons<img src={Arrow} alt="Read More Arrow" className="readMoreArrow" /> </NavLink>
+            <NavLink to="sermons/sermon-events">View all Sermons<img src={Arrow} alt="Read More Arrow" className="readMoreArrow" /> </NavLink>
         </div>
     );
 }

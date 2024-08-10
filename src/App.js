@@ -11,6 +11,7 @@ import AboutUs from './pages/AboutUs';
 import SermonPage from './pages/SermonPage';
 import BlogPage from './pages/BlogPage';
 import SermonEvent from './pages/SermonEvent';
+import ContactPage from './pages/ContactPage';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='sermons' element={<SermonPage />} />
           <Route path='blog/*' element={<BlogPage />} />
           <Route path='sermons/sermon-events' element={<SermonEvent />} />
+          <Route path='contact-us' element={<ContactPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

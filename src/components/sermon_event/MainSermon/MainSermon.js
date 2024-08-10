@@ -2,13 +2,14 @@ import React from "react";
 import MainSermonImg from "../../../assets/sermonEvents/main-sermon-event.png";
 import AddressIcon from "../../../assets/sermonEvents/address-icon.png";
 import DateIcon from "../../../assets/sermonEvents/time-icon.png";
+import "./mainSermon.css";
 
 const MainSermon = () => {
    return (
       <div className="mainSermon">
          <div className="mainSermonEventContent">
             <div className="sermon">
-               <img src={MainSermonImg} alt="Main sermon" />
+               <img src={MainSermonImg} alt="Main sermon" className="sermonImg" />
                <div className="sermonText">
                   <h6>UPCOMING EVENT</h6>
                   <h2>HOW TO TRULY TRUST SOMEONE</h2>
@@ -24,10 +25,15 @@ const MainSermon = () => {
                <div className="addressAndDate">
                   <div className="address">
                      <img src={AddressIcon} alt="Address icon" />
-                     <p>Begger Yard, Lugbe, FCT - Abuja</p>
+                     <p>
+                        Begger Yard, Lugbe, FCT - Abuja
+                     </p>
                   </div>
                   <div className="date">
                      <img src={DateIcon} alt="Date icon" />
+                     <p>
+                        16 August, 2024
+                     </p>
                   </div>
                </div>
                <div className="formInput">

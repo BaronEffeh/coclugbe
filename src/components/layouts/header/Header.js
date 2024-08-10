@@ -14,7 +14,7 @@ export default function Header() {
                         <NavLink to="sermons" className="desktopMenuListItem">SERMONS</NavLink>
                         <NavLink to="blog" className="desktopMenuListItem">BLOG</NavLink>
                     </div>
-                    <button>CONTACT US</button>
+                    <NavLink to="contact-us" > <button>CONTACT US</button></NavLink>
                 </nav>
             </header>
 
